@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+<style>  :root {
+  --cor-principal: #6a00ff;
+  --cor-secundaria: #ffffff;
+  --cor-destaque: #000000;
+  --cor-card: #ffffff;
+  --cor-texto: #000000;
+  --cor-suave: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: var(--cor-secundaria);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: transparent;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+/* MENU */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  color: var(--cor-texto);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: var(--cor-destaque);
+}
+
+/* SEÇÕES */
+section {
+  padding: 120px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* TEXTOS */
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--cor-destaque);
+}
+
+p {
+  color: var(--cor-suave);
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.container {
+  background: var(--cor-card);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+/* BOTÃO */
+button {
+  background: transparent;
+  border: 1px solid var(--cor-destaque);
+  color: var(--cor-destaque);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--cor-destaque);
+  color: white;
+}
+
+/* FORM */
+input, select, textarea {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 1px solid var(--cor-destaque);
+}
+</style>
+
+</head>
+<body>
+    <H1> <center> Home Page </center> </H1>
+<h4> <center> <i> Bem-Vindo! </i> </center> </h4>
+
+<img style="display: block; margin: 0 auto;" src="../imagem/WhatsApp Image - perfil.jpeg" width="300px" alt="Davi Dutra">
+<h2>Sobre mim</h2>
+
+<p>Meu nome é Davi Dutra Cavalca, sou estudante de Sistemas de Informação na Universidade Vila Velha (UVV). <br> 
+    </p>
+
+<h2>Minha História</h2>
+<p>Sempre tive interesse por tecnologia e inovação, o que me motivou a ingressar no curso de Sistemas de Informação. <br> 
+    Ao longo da minha trajetória, venho desenvolvendo habilidades importantes como organização, comunicação e pensamento lógico. <br>
+Meu objetivo profissional é atuar na área de tecnologia, construindo uma carreira sólida e inovadora, sem deixar de lado minha paixão pelo esporte.</p>
+
+<h2>Habilidades Pessoais</h2>
+<ul type="disc">
+<li> Conhecimento em tecnologia e sistemas</li>
+<li>Raciocínio lógico</li>
+<li>Boa comunicação</li>
+<li>Trabalho em equipe</li>
+<li>Organização e disciplina</li>
+<li>Facilidade de aprendizado</li>
+</ul>
+
+<h2>Hobbies e Interesse</h2>
+<ul type="disc">
+<li> Futebol</li>
+<li> Vôlei </li>
+<li>Jogos eletrônicos </li>
+<li>Militarismo</li>
+</ul>
+<br>
+<br>
+
+<h2>Vida Academica</h2>
+
+
+<table border="5">
+    <thead> 
+    <tr>
+        <th>Etapa de Ensino</th>
+        <th>Instituição</th>
+    </tr>
+</thead>
+<tbody> 
+    <tr>
+        <td>Ensino Fundamental I</td>
+        <td style="text-align: center;">Colégio JB</td>
+    </tr>
+
+    <tr>
+        <td>Ensino Fundamental II</td>
+        <td style="text-align: center;">Americano Batista</td>
+    </tr>
+
+    <tr>
+        <td>Ensino Médio</td>
+        <td style="text-align: center;">Americano Batista</td>
+    </tr>
+
+    <tr>
+        <td>Ensino Superior</td>
+        <td>Estácio de Sá e Universidade Vila Velha</td>
+    </tr>
+</tbody>
+<tfoot> </tfoot>
+</table>
+<br>
+<br>
+<h2>Matérias da Faculdade</h2>
+<table border="5">
+   <thead> 
+    <tr>
+        <th>Disciplina</th>
+        <th>Carga Horária</th>
+        <th>Descrição</th>
+    </tr>
+</thead>
+<tbody>    
+<tr>
+        <td>Construção de Software para Web</td>
+        <td style="text-align: center;">80h</td>
+        <td>Desenvolvimento de aplicações web utilizando boas práticas</td>
+    </tr>
+
+    <tr>
+        <td>Design e Desenvolvimento de Banco de Dados I</td>
+        <td style="text-align: center;">80h</td>
+        <td>Modelagem e criação de bancos de dados</td>
+    </tr>
+
+    <tr>
+        <td>Experiência e Interface com o Usuário</td>
+        <td style="text-align: center;">40h</td>
+        <td>Estudo da usabilidade e design de interfaces</td>
+    </tr>
+
+    <tr>
+        <td>Fundamentos de Tecnologia da Computação</td>
+        <td style="text-align: center;">60h</td>
+        <td>Conceitos básicos de computação</td>
+    </tr>
+
+    <tr>
+        <td>Lógica para Computação</td>
+        <td style="text-align: center;">80h</td>
+        <td>Raciocínio lógico aplicado à programação</td>
+    </tr>
+
+    <tr>
+        <td>Textos Científicos</td>
+        <td style="text-align: center;">80h</td>
+        <td>Produção de textos acadêmicos</td>
+    </tr>
+</tbody>  
+<tfoot> </tfoot>
+</table>
+<br>
+<br>
+<h2> Planos Futuros </h2>
+<p>Pretendo ingressar em algum cargo voltado para a área da tecnologia, atuando no desenvolvimento e aperfeioçoamento de sistemas.</p>
+
+<p> <a href="../index.html" target="_self" rel="next"> <img src="../imagem/Voltar.png" width="100px" alt="Voltar"> </a> </p>
+</body>
+</html>
